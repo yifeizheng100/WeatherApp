@@ -313,10 +313,9 @@ class Main extends React.Component {
             <Card chart>
               <CardHeader color="rose">{chartObject}</CardHeader>
               <CardBody>
-                <h4 className={classes.cardTitle}>Details</h4>
+                <h4 className={classes.cardTitle}>Hourly Details</h4>
                 <p className={classes.cardCategory}>
-                  You can find more information about that day separeted with
-                  hours
+                  You can find more information about the weather of that day, separated into hourly forecast
                 </p>
               </CardBody>
             </Card>
