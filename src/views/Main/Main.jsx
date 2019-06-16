@@ -71,7 +71,7 @@ const ChartSettings = {
     "09:00 PM"
   ]
 };
-
+const URI = "https://api.openweathermap.org/data/2.5/forecast";
 class Main extends React.Component {
   state = {
     value: 0,
@@ -158,7 +158,7 @@ class Main extends React.Component {
   }
   componentDidMount() {
     fetch(
-      "http://api.openweathermap.org/data/2.5/forecast?q=Munich,de&units=metric&APPID=75f972b80e26f14fe6c920aa6a85ad57&cnt=40"
+      URI+"?q=Munich,de&units=metric&APPID=75f972b80e26f14fe6c920aa6a85ad57&cnt=40"
     )
       .then(response => response.json())
       .then(data => {
