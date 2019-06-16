@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Weather Broadcast Page with React. Only for Munich :)",
   "main": "dist/index.js",
-  "homepage": "https://github.com/serhangursoy/WeatherApp",
+  "homepage": "https://serhangursoy.github.io/WeatherApp/",
   "dependencies": {
     "@material-ui/core": "3.9.2",
     "@material-ui/icons": "3.0.2",
